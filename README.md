@@ -23,7 +23,7 @@ Some examples of libtorch
 ## Build a test (Windows)
 
 1. Create and enter an empty directory.
-2. run %cmake_configure% <path-to-a-test> to prepare the Makefiles
+2. run %cmake_configure% *path-to-a-test* to prepare the Makefiles
 3. run %cmake_make% to build.
 4. run Release\<project>.exe to run the test. The <project> is normally "main"
 
