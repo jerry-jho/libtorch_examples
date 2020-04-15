@@ -1,7 +1,7 @@
 #include <torch/torch.h>
 #include <iostream>
 
-int main() {
+int main(int argc, const char ** argv) {
     auto t1 = torch::rand({ 2, 2 });
     auto t2 = torch::rand({ 2, 2 });
     std::cout << t1 << std::endl;
@@ -12,4 +12,5 @@ int main() {
     }
     auto t3 = torch::add(t1,t2);
     std::cout << t3 << std::endl;
+    return 0;
 }
